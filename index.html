@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="./img/laptop.png" type="image/png">
+  <title>Formater | Peça ajuda para formatar os seus trabalhos</title>
+</head>
+
+<body>
+  <div class="scroll">
+    <a href="#one"></a>
+    <a href="#two"></a>
+    <a href="#three"></a>
+  </div>
+  <section id="one" class="s1 js-scroll">
+    <nav class="s1__nav">
+      <ul class="s1__list">
+        <li class="s1__items">
+          <a href="#one" data-smooth class="s1__links">Inicio</a>
+        </li>
+        <li class="s1__items">
+          <a href="#two" data-smooth class="s1__links">Serviços</a>
+        </li>
+        <li class="s1__items">
+          <a href="#three" data-smooth class="s1__links">Contrate</a>
+        </li>
+        <li class="s1__items">
+          <a href="#popup" data-popup class="s1__links">Newsletter</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="s1__presentation">
+      <h1 class="heading-primary s1__heading-primary">
+        Serviços de formatação de artigos, papers, monográfias e muito mais
+      </h1>
+      <h3 class="heading-tertiary s1__heading-tertiary">
+        Contate-nos e agende a sua consulta
+      </h3>
+    </div>
+    <div class="s1__scroll-sign">
+      <span>&nbsp;</span>
+    </div>
+  </section>
+  <section id="two" class="s2 js-scroll">
+    <h1 class="heading-primary s2__heading-primary">Conheça os nossos melhores serviços</h1>
+    <div class="s2__cards-container">
+      <div class="s2__card">
+        <div class="s2__card-side s2__card-side-front">
+          <h3 class="heading-tertiary s2__heading-tertiary">Formatação simples</h3>
+          <img src="./img/price.png" alt="price" class="s2__img">
+        </div>
+        <div class="s2__card-side s2__card-side-back">
+          <img src="./img/phone.png" alt="phone" class="s2__img">
+          <button class="btn s2__btn">Fale conosco</button>
+        </div>
+      </div>
+
+      <div class="s2__card">
+        <div class="s2__card-side s2__card-side-front">
+          <h3 class="heading-tertiary s2__heading-tertiary">Formatação premium</h3>
+          <img src="./img/price.png" alt="price" class="s2__img">
+        </div>
+        <div class="s2__card-side s2__card-side-back">
+          <img src="./img/phone.png" alt="phone" class="s2__img">
+          <button class="btn s2__btn">Fale conosco</button>
+        </div>
+      </div>
+
+      <div class="s2__card">
+        <div class="s2__card-side s2__card-side-front">
+          <h3 class="heading-tertiary s2__heading-tertiary">Formatação especial</h3>
+          <img src="./img/price.png" alt="price" class="s2__img">
+        </div>
+        <div class="s2__card-side s2__card-side-back">
+          <img src="./img/phone.png" alt="phone" class="s2__img">
+          <button class="btn s2__btn">Fale conosco</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="three" class="s3 js-scroll">
+    <div class="s3__left-side">
+      <h1 class="heading-primary s3__heading-primary">Taxa de entrega mais rápida do mercado</h1>
+      <div class="s3__information">
+        <h3 class="heading-tertiary s3__heading-tertiary">Garantimos 100% de satisfação</h3>
+        <div class="s3__profile">
+          <div class="s3__profile-box">
+            <figcaption class="s3__caption  s3__caption--1">
+              <img src="./img/girl.jpg" alt="girl" class="s3__img">
+              <div class="s3__name-and-date">
+                <span class="s3__profile-name">Samanta</span>
+                <span class="s3__profile-date">23/05/2020</span>
+              </div>
+            </figcaption>
+            <blockquote class="s3__comment">"Serviço sensacional, não me arrependo de ter escolhido vocês. Além de
+              cumprir
+              com o que promete, o atendimento ao cliente é perfeito."</blockquote>
+          </div>
+        </div>
+
+        <div class="s3__profile">
+          <div class="s3__profile-box">
+            <figcaption class="s3__caption s3__caption--2">
+              <img src="./img/man.jpg" alt="man" class="s3__img">
+              <div class="s3__name-and-date">
+                <span class="s3__profile-name">Jonathan</span>
+                <span class="s3__profile-date">13/07/2020</span>
+              </div>
+            </figcaption>
+            <blockquote class="s3__comment">"Simplesmente o melhor do mercado. Os caras prometem e cumprem."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="s3__form-wrapper">
+      <form name="data" id="data">
+        <fieldset>
+          <legend class="heading-secondary">
+            Forneça os dados necessários
+          </legend>
+          <div>
+            <input type="text" name="name" id="name" placeholder="Nome" minlength="3" required />
+            <span class="s3__validationMessage">
+              Preencha com o seu nome
+              <img class="s3__validation-icons" src="./img/cross.png" alt="cross mark">
+            </span>
+            <label for="name" class="s3__form-labels">Nome</label>
+          </div>
+
+          <div>
+            <input type="text" name="lastName" id="lastName" placeholder="Sobrenome" minlength="3" required />
+            <span class="s3__validationMessage">
+              Preencha com o seu sobrenome
+              <img class="s3__validation-icons" src="./img/cross.png" alt="cross mark">
+            </span>
+            <label for="lastName" class="s3__form-labels">Sobrenome</label>
+          </div>
+
+          <div>
+            <input type="email" name="email" id="email" placeholder="Email" required />
+            <span class="s3__validationMessage">
+              Preencha com um email válido
+              <img class="s3__validation-icons" src="./img/cross.png" alt="cross mark">
+            </span>
+            <label for="email" class="s3__form-labels">Email</label>
+          </div>
+
+          <div>
+            <textarea name="description" id="description" minlength="10" maxlength="200"
+              placeholder="Descreva o que você espera do trabalho final..." required></textarea>
+            <span class="s3__validationMessage">
+              Preencha o campo acima
+              <img class="s3__validation-icons" src="./img/cross.png" alt="cross mark">
+            </span>
+            <label for="description" class="s3__form-labels">O que você espera do trabalho final?</label>
+          </div>
+        </fieldset>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>&copy; Design by Felipe Gomes - 2020</p>
+  </footer>
+  <div class="popup" id="#popup">
+    <div class="popup__modal">
+      <button type="button" class="popup__btn">X</button>
+      <h1 class="heading-primary popup__heading-primary">Inscreva-se na nossa newsletter</h1>
+      <form id="newsletter" name="newsletter">
+
+        <div>
+          <input type="text" name="name-newsletter" id="name-newsletter" minlength="3" required>
+          <label for="name-newsletter">Nome</label>
+        </div>
+
+        <div>
+          <input type="email" name="email-newsletter" id="email-newsletter" minlength="3" required>
+          <label for="email-newsletter">Email</label>
+        </div>  
+
+        <button class="btn" type="submit">Finalizar cadastro</button>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="./scripts/script.js"></script>
+</body>
+
+</html>
