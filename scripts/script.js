@@ -6,3 +6,4 @@ import sectionReveal from "./modules/sectionReveal.js";
 import sectionThreeObserver from "./modules/sectionThreeObserver.js";
 import sectionTwoObserver from "./modules/sectionTwoObserver.js";
 import popup from "./modules/popup.js";
+import sideBtnColor from "./modules/sideBtnColor.js";

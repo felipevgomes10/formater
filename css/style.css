@@ -23,6 +23,9 @@ label {
 body {
   position: relative;
   background-color: var(--color-primary);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-rows: repeat(4, min-content);
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
@@ -64,9 +67,12 @@ body {
   display: block;
   height: 8px;
   width: 8px;
-  background-color: #5f5f67;
+  background-color: var(--color-primary);
   border-radius: 50%;
   transition: 0.2s ease-in-out; }
+  @media only screen and (min-width: 87.5em) {
+    .scroll a {
+      background-color: var(--color-text-dark) !important; } }
 
 .scroll a.active {
   height: 14px;
@@ -133,6 +139,9 @@ body {
     grid-row: 2 / 3;
     justify-self: center;
     width: 55%; }
+    @media only screen and (min-width: 87.5em) {
+      .s1__presentation {
+        align-self: end; } }
   .s1__heading-primary {
     color: var(--color-primary); }
   .s1__heading-primary::after {
@@ -527,10 +536,10 @@ label[for="description"] {
   width: 19rem;
   padding: 0.5rem;
   height: 5rem;
-  border-radius: 29px;
+  border-radius: 10px;
+  border: none;
   background-color: var(--color-text-dark);
   color: var(--color-primary);
-  border: 2px solid var(--color-primary);
   font-size: 1.8rem;
   outline: none;
   cursor: pointer;
@@ -539,7 +548,7 @@ label[for="description"] {
   .btn::after {
     display: block;
     content: '';
-    border-radius: 29px;
+    border-radius: 10px;
     border: 2px solid var(--color-border);
     background-color: var(--color-text-dark);
     width: 100%;
@@ -579,6 +588,8 @@ label[for="description"] {
   position: fixed;
   height: 100%;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;

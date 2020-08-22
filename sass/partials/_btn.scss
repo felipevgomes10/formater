@@ -3,10 +3,10 @@
   width: 19rem;
   padding: 0.5rem;
   height: 5rem;
-  border-radius: 29px;
+  border-radius: 10px;
+  border: none;
   background-color: var(--color-text-dark);
   color: var(--color-primary);
-  border: 2px solid var(--color-primary);
   font-size: 1.8rem;
   outline: none;
   cursor: pointer;
@@ -16,7 +16,7 @@
   &::after {
     display: block;
     content: '';
-    border-radius: 29px;
+    border-radius: 10px;
     border: 2px solid var(--color-border);
     background-color: var(--color-text-dark);
     width: 100%;
