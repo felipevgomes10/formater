@@ -83,6 +83,10 @@ row-gap: 7rem;
               height: 18rem;
               border-radius: 2rem 2rem 0 0;
             }
+
+            &__card:hover &__card-side-front {
+              transform: rotateY(0);
+            }
           
             &__card-side-back {
               position: absolute;

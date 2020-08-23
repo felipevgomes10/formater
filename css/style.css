@@ -240,6 +240,8 @@ body {
   .s2__card-side {
     height: 18rem;
     border-radius: 2rem 2rem 0 0; }
+  .s2__card:hover .s2__card-side-front {
+    transform: rotateY(0); }
   .s2__card-side-back {
     position: absolute;
     top: 50%;
