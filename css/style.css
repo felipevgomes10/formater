@@ -187,7 +187,7 @@ body {
 .s2 {
   display: grid;
   grid-template-rows: min-content 1fr;
-  padding: 7rem;
+  padding: 7rem 7rem 10rem 7rem;
   row-gap: 7rem; }
   .s2__heading-primary {
     color: var(--color-text-dark);
@@ -198,17 +198,15 @@ body {
     grid-row: 2/3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 2rem;
+    gap: 4rem;
     place-items: center; }
   .s2__card {
     position: relative;
     perspective: 1500rem;
     -moz-perspective: 1500rem;
-    height: 28rem;
-    width: 22rem; }
+    height: 28rem; }
   .s2__card-side {
     height: 28rem;
-    width: 22rem;
     border-radius: 2rem;
     backface-visibility: hidden;
     transition: .5s;
@@ -224,7 +222,8 @@ body {
     top: 0;
     left: 0;
     background-color: var(--color-secondary);
-    transform: rotateY(180deg); }
+    transform: rotateY(180deg);
+    width: 100%; }
   .s2__card:hover .s2__card-side-front {
     transform: rotateY(-180deg); }
   .s2__card:hover .s2__card-side-back {
@@ -238,6 +237,9 @@ body {
     box-shadow: none !important; }
 
 @media only screen and (max-width: 43.75em), only screen and (hover: none) {
+  .s2__cards-container {
+    column-gap: 4rem;
+    row-gap: 7rem; }
   .s2__card-side {
     height: 18rem;
     border-radius: 2rem 2rem 0 0; }
@@ -250,7 +252,7 @@ body {
     transform: rotateY(0);
     -webkit-clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 3rem, 100% 0, 100% 100%, 0 100%);
-    height: 14rem; }
+    height: 17rem; }
   .s2__heading-tertiary {
     font-size: 1.8rem;
     margin-bottom: 1rem; }
@@ -267,7 +269,7 @@ body {
   background-size: cover;
   background-position: center; }
   .s3__left-side {
-    padding: 3rem;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -383,7 +385,7 @@ body {
     cursor: default; }
   .s3__form-wrapper {
     background-color: var(--color-secondary);
-    padding: 3.5rem;
+    padding: 5rem;
     opacity: 0;
     justify-self: center;
     display: grid;
