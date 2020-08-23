@@ -207,6 +207,7 @@ body {
     height: 28rem; }
   .s2__card-side {
     height: 28rem;
+    width: 26rem;
     border-radius: 2rem;
     backface-visibility: hidden;
     transition: .5s;
