@@ -16,7 +16,7 @@ row-gap: 7rem;
   &__cards-container {
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 4rem;
     place-items: center;
   }
