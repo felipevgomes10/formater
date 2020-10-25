@@ -29,7 +29,7 @@ O projeto foi desenvolvido inteiramente com Javascript moderno, usando features 
 
 # Efeitos JavaScript
 
-O projeto conta com vários efeitos front-end feitos com vanilla Javascript. Alguns deles são: efeitos de scroll suave, efeito de máquina de escrever, efeito de fade nas seções do site de acordo com o scroll da página, dentre outros. Para conferir todos os efeitos acesse: <a href="https://felipevgomes10.github.io/formater/">LINK DO PROJETO FORMATER</a>.
+O projeto conta com vários efeitos front-end feitos com vanilla Javascript. Alguns deles são: efeitos de scroll suave, efeito de máquina de escrever, efeito de fade nas seções do site de acordo com o scroll da página, navegação lateral, dentre outros. Para conferir todos os efeitos acesse: <a href="https://felipevgomes10.github.io/formater/">LINK DO PROJETO FORMATER</a>.
 
 # Iniciando o projeto
 
