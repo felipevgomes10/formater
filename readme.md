@@ -1,7 +1,7 @@
 <img src="./img/laptop.png">
 <a href="https://felipevgomes10.github.io/formater/">LINK DO PROJETO FORMATER</a>
 
-# Fomater
+# Formater
 
 Formater é um projeto de uma lading-page que consiste em captar clientes para um empresa fictícia que realiza formatação de diferentes tipos de documentos.
 
